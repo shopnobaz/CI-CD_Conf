@@ -3,9 +3,9 @@ name: Python Test Suite
 # This is the "on" section. Ensure it looks exactly like this:
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   test:
