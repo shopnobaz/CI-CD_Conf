@@ -7,6 +7,14 @@ on:
   pull_request:
     branches: [ "master" ]
 
+
+# ADD THIS SECTION HERE:
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+
+
+
+
 jobs:
   test:
     runs-on: ubuntu-latest
